@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Control x2 to Caps</name>
+		<identifier>private.control_x2_to_caps</identifier>
+		<appendix>When double click on control, CAPS take effect.</appendix>
+		<autogen>
+			__DoublePressModifier__
+			KeyCode::CONTROL_L,
+			KeyCode::CONTROL_L,
+			KeyCode::CAPSLOCK
+		</autogen>
+	</item>
+
+	<!-- use SEIL.app to change CAPSLOCK to CONTROL_R fisrt -->
+	<item>
+		<name>Caps to Control to ESC</name>
+		<identifier>private.caps_to_control_to_esc</identifier>
+		<appendix>Change Caps to Control(using SEIL.app), when click Caps only, send ESC.</appendix>
+		<autogen>
+		  __KeyOverlaidModifier__ 
+		  KeyCode::CONTROL_R, 
+		  KeyCode::CONTROL_R, 
+		  KeyCode::ESCAPE
+		</autogen>
+	</item>
+
+	<item>
+		<name>Right option to F12</name>
+		<identifier>private.right_option_to_f12</identifier>
+		<appendix></appendix>
+		<autogen>
+			__KeyToKey__
+			KeyCode::OPTION_R,
+			KeyCode::F12
+		</autogen>
+	</item>
+</root>
