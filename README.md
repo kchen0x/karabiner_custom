@@ -17,3 +17,12 @@ curl https://raw.githubusercontent.com/quentin-chen/karabiner_custom/master/priv
 ```
 
 3.Done, reloaded xml in Karabiner
+
+## Instruction 
+
+This setting file includes:
+
+- change `caps lock` to right `control`
+- when click `caps lock` only, send `ESC` for vim user :)
+- double click left `control` for `CAPSLOCK`
+- change right `option` to `F12` for iterm2 system wide hotkey 
